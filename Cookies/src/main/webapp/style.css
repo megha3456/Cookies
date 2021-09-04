@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+body {
+	margin: 0;
+	padding: 0;
+	background: url(joel-filipe-VuwAfoHpxgs-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Algerian;
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border: 4px outset red;
+}
+.man {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 110px;
+}
+.h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+	font-family: arial;
+	top: 500px;
+	
+	
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	
+	text-align: center;
+	margin-top: 30px;
+	color : red;
+	}
+	
+.loginbox h1{
+	margin: 0;
+	padding: 0;
+	
+	text-align: center;
+	margin-top: 50px;
+	}
+	
+.loginbox input[type=text],[type=password]{
+	width: 50%;
+	margin-bottom: 2px;
+	margin-left: 90px;
+	border-radius: 4px;
+
+}
+
+.loginbox input[type=submit]{
+	
+	margin-bottom: 2px;
+	margin-left: 80px;
+	border-radius: 4px;
+	color : red; 
+	cursor : pointer;
+	font-weight: bold;
+	
+	
+}
+.loginbox input[type=reset]{
+	
+	margin-bottom: 2px;
+	margin-left: 80px;
+	border-radius: 4px;
+	color : red; 
+	cursor : pointer;
+	font-weight: bold;
+	
+	
+}
+.loginbox button 
+{
+	color:red;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 200px;
+	font-weight: bold;
+}
+	
+
+	
